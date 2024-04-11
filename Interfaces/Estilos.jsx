@@ -85,7 +85,7 @@ export const principal = StyleSheet.create({
 })
 
 
-export const estilosRegistrar = StyleSheet.create({
+export const estilosPerfil = StyleSheet.create({
     title: {
         fontSize: 20,
         fontWeight: 'bold',
@@ -117,4 +117,46 @@ export const estilosRegistrar = StyleSheet.create({
         color: '#fff', // Color del texto del botón
         fontWeight: 'bold',
     },
+});
+
+export const EstiloRegistro = StyleSheet.create({
+  form: {
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 30,
+    left: 0,
+    right: 0,
+    backgroundColor: '#f5f5f5',
+    padding: 10,
+  },
+  title: {
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+
+  input: {
+    flex: 1,
+    marginLeft: 0,
+    marginRight: 0,
+    padding: 5,
+    borderColor: 'black',
+    borderWidth: 1,
+    width: 250,
+    marginBottom: 7,
+  },
+  buttonContainer: {
+    marginTop: 35,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    width: '100%',
+    alignItems: 'center',
+  },
+  button: {
+    backgroundColor: '#fff',
+    color: 'black',
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    margin: 5,
+  },
 });
