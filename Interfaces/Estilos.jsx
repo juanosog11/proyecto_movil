@@ -1,0 +1,87 @@
+import {StyleSheet } from 'react-native';
+
+
+
+
+export const estilos_estandar = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    head: {
+        marginTop: 35,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+    },
+    title: {
+        fontSize: 24,
+        fontWeight: 'bold',
+    },
+    logo: {
+        width: 50,
+        height: 50,
+        resizeMode: 'contain', // Ajusta el tamaño de la imagen según su contenedor
+        borderRadius: 300,
+    },
+    })
+
+export const principal = StyleSheet.create({
+    form: {
+        // flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        position: 'absolute',
+        bottom: 30,
+        left: 0,
+        right: 0,
+        backgroundColor: '#f5f5f5',
+        padding: 10,
+    },
+    title2: {
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    input: {
+        flex: 1,
+        marginLeft: 0,
+        marginRight: 10,
+        padding: 5,
+        borderColor: 'black',
+        borderWidth: 1,
+        width: 250,
+        marginBottom: 7,
+    },
+    button: {
+        backgroundColor: '#fff',
+        color: 'black',
+        borderRadius: 3,
+        paddingVertical: 5,
+        paddingHorizontal: 10,
+        margin: 5,
+    },
+    buttonRedes: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: '#fff',
+        borderRadius: 20,
+        paddingVertical: 10,
+        paddingHorizontal: 10,
+        marginVertical: 10,
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+    },
+    buttonContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        width: '100%',
+        alignItems: "center",
+    },
+})
+
+
