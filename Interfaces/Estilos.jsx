@@ -121,10 +121,11 @@ export const estilosPerfil = StyleSheet.create({
 
 export const EstiloRegistro = StyleSheet.create({
   form: {
+    marginTop: 80,
     justifyContent: 'space-between',
     alignItems: 'center',
-    position: 'absolute',
-    bottom: 30,
+    position: 'relative',
+    bottom: 0,
     left: 0,
     right: 0,
     backgroundColor: '#f5f5f5',
