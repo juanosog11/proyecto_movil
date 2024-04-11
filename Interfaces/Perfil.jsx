@@ -7,10 +7,10 @@ export default function Perfil() {
         <ScrollView style={estilos_estandar.container}>
             <View style={estilos_estandar.head}>
                 <Text style={estilos_estandar.title}>smartInvest</Text>
-                <Image source={require('../logo.jpeg')} style={estilos_estandar.logo} />
+                <Image source={require('../images/logo.jpeg')} style={estilos_estandar.logo} />
             </View>
             <View style={estilosRegistrar.form}>
-                <Image source={require('../images (2).jpeg')} style={estilosRegistrar.logo} />
+                <Image source={require('../images/images (2).jpeg')} style={estilosRegistrar.logo} />
                 <Text style={estilosRegistrar.title}>Datos del Usuario</Text>
                 <View style={estilosRegistrar.userData}>
                     <Text style={estilosRegistrar.userDataLabel}>Nombre y apellidos:</Text>

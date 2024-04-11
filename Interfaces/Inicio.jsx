@@ -9,7 +9,7 @@ export default function HomeScreen({ navigation }) {
         <View style={estilos_estandar.container}>
             <View style={estilos_estandar.head}>
                 <Text style={estilos_estandar.title}>smartInvest</Text>
-                <Image source={require('../logo.jpeg')} style={estilos_estandar.logo} />
+                <Image source={require('../images/logo.jpeg')} style={estilos_estandar.logo} />
             </View>
 
             {/* informacion */}
