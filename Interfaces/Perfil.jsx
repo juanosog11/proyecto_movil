@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button, Image, Text, TouchableOpacity, View, ScrollView } from 'react-native';
 import { estilosPerfil, estilos_estandar } from "./Estilos.jsx";
+import NavBar from './Navbar.jsx';
 
-export default function Perfil() {
+export default function Perfil({ navigation }) {
     return (
-        <ScrollView style={estilos_estandar.container}>
+        <View style={estilos_estandar.container}>
             <View style={estilos_estandar.head}>
                 <Text style={estilos_estandar.title}>smartInvest</Text>
                 <Image source={require('../images/logo.jpeg')} style={estilos_estandar.logo} />
@@ -40,6 +41,8 @@ export default function Perfil() {
                     <Text style={estilosPerfil.buttonText}>Modificar Información</Text>
                 </TouchableOpacity>
             </View>
-        </ScrollView>
+            <NavBar navigation={navigation} />
+        </View>
+        
     );
 }

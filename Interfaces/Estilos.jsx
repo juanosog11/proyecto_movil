@@ -161,3 +161,27 @@ export const EstiloRegistro = StyleSheet.create({
     margin: 5,
   },
 });
+
+
+export const navbar = StyleSheet.create({
+    tabBar: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        paddingVertical: 10,
+        borderTopWidth: 1,
+        borderTopColor: '#ccc',
+        backgroundColor: '#fff',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        right: 0,
+    },
+    tabBarItem: {
+        alignItems: 'center',
+    },
+    tabBarItemText: {
+        fontSize: 12,
+        color: '#333',
+    },
+})
