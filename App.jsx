@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './Interfaces/Inicio.jsx';
 import Perfil from './Interfaces/Perfil.jsx'
 import Registrar from './Interfaces/Registrar.jsx';
 import Inicio from './Interfaces/Inicio.jsx'
 import Principal from './Interfaces/Principal.jsx';
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
