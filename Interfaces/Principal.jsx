@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, Image } from 'react-native';
 import { estilos_estandar } from './Estilos.jsx';
-import NavBar from './Navbar.jsx';
+import NavBar from '../components/Navbar.jsx';
 
 export default function Principal({ navigation }) {
   return (
